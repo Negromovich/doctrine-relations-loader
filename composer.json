@@ -1,0 +1,23 @@
+{
+    "name": "negromovich/doctrine-relations-loader",
+    "description": "Library for lazy loading relations on Doctrine",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aliaksandr Markhvida",
+            "email": "me@mal.by"
+        }
+    ],
+    "require": {
+        "php": "^5.5|^7.0"
+    },
+    "require-dev": {
+        "doctrine/orm": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Negromovich\\DoctrineRelationsLoader\\": "src/"
+        }
+    }
+}
